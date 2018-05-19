@@ -1,0 +1,7 @@
+{
+"appId": "4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR",
+"masterKey": "6NtABNvHhiAz9xRUQCXMeElqhqgJQp1wItcQB9AC",
+"databaseURI": "mongodb://localhost:27017",
+"port": 1337,
+"push":{"android": {"senderId": "squeak-7e2ed","apiKey": "AIzaSyDAqo3orTwnNF0OuWbS_yUt3vyG_CZ4sDs"}}
+}

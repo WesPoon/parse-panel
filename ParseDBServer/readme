@@ -1,0 +1,12 @@
+parse-server --appId 4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR --masterKey 6NtABNvHhiAz9xRUQCXMeElqhqgJQp1wItcQB9AC --databaseURI mongodb://localhost:27017
+
+parse-dashboard --config parse-dashboard-config.json --mountPath /dashboard
+
+nohup parse-dashboard --config parse-dashboard-config.json --mountPath /dashboard >> log_parse-dashboard.log &
+
+nohup parse-server \
+--appId 4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR \
+--masterKey 6NtABNvHhiAz9xRUQCXMeElqhqgJQp1wItcQB9AC \
+--push  {'android': {'senderId': 'squeak-7e2ed',"apiKey": "AIzaSyDAqo3orTwnNF0OuWbS_yUt3vyG_CZ4sDs"},"ios": {"pfx": "certs/mycert.p12","cert": "","bundleId": "", "key": "","production": "true"}} \
+--databaseURI mongodb://localhost:27017 >> log_parse-server.log & 
+

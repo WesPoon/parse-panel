@@ -1,0 +1,50 @@
+The dashboard is now available at http://0.0.0.0:4040/dashboard/
+The dashboard is now available at http://0.0.0.0:4040/dashboard/
+The dashboard is now available at http://0.0.0.0:4040/dashboard/
+The dashboard is now available at http://0.0.0.0:4040/dashboard/
+The dashboard is now available at http://0.0.0.0:4040/dashboard/
+undefined:8
+#    },
+^
+
+SyntaxError: Unexpected token #
+    at Object.parse (native)
+    at exports.parse (/usr/lib/node_modules/parse-dashboard/node_modules/package-json/node_modules/rc/lib/utils.js:15:17)
+    at addConfigFile (/usr/lib/node_modules/parse-dashboard/node_modules/package-json/node_modules/rc/index.js:31:20)
+    at module.exports (/usr/lib/node_modules/parse-dashboard/node_modules/package-json/node_modules/rc/index.js:47:20)
+    at module.exports (/usr/lib/node_modules/parse-dashboard/node_modules/package-json/node_modules/registry-url/index.js:3:24)
+    at module.exports (/usr/lib/node_modules/parse-dashboard/node_modules/package-json/index.js:10:27)
+    at Object.<anonymous> (/usr/lib/node_modules/parse-dashboard/Parse-Dashboard/app.js:11:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:4040
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1234:14)
+    at listen (net.js:1270:10)
+    at net.js:1379:9
+    at nextTickCallbackWith3Args (node.js:453:9)
+    at process._tickCallback (node.js:359:17)
+The dashboard is now available at http://0.0.0.0:4040/dashboard/
+The dashboard is now available at http://0.0.0.0:4040/
+The dashboard is now available at http://0.0.0.0:4040/
+The dashboard is now available at http://0.0.0.0:4040/dashboard
+The dashboard is now available at http://0.0.0.0:4040/dashboard
+The dashboard is now available at http://0.0.0.0:4040/dashboard
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:4040
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1234:14)
+    at listen (net.js:1270:10)
+    at net.js:1379:9
+    at nextTickCallbackWith3Args (node.js:453:9)
+    at process._tickCallback (node.js:359:17)

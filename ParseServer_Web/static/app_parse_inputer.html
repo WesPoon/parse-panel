@@ -1,0 +1,45 @@
+<!doctype html>
+<title>OFFERS - Parse - Inputer</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+{% if classList.count > 0 %}
+	<div class="top-content">
+		<div class="inner-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9 col-sm-offset-1 text">
+						<br>
+						<h1 align="middle">Parse - Database - Inputer</h1>
+						<br>
+                    </div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+						<p class="col-sm-3 control-label lead">Select Classes:</p>
+						<form role="form" action="{{url_for('DataInputer')}}" method="post" >
+							<div class="col-sm-8 form-box" >
+								{% for each_class in classList %}
+									<div class="radio">
+										<label>
+											<input type="radio" name="selected_class" value="{{each_class}}">
+											{{each_class}}
+										</label>
+									</div>
+								{% endfor %}
+							</div>
+							<div class="col-sm-3 col-sm-offset-5 form-box" >
+								<button type="submit" class="btn">Submit</button>
+							</div>
+						</form>
+						
+					</div
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 social-login">
+						<h3><a href="./">You can Back To Main Page Here.</a></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+{% endif %}

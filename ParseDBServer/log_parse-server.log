@@ -1,0 +1,48 @@
+Configuation loaded from /home/ubuntu/OFFERS/ParseDBServer/config.json
+appId: 4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR
+masterKey: ***REDACTED***
+port: 1337
+databaseURI: mongodb://localhost:27017
+push: [object Object]
+mountPath: /parse
+maxUploadSize: 20mb
+serverURL: http://localhost:1337/parse
+
+parse-server running on http://localhost:1337/parse
+appId: 4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR
+masterKey: ***REDACTED***
+port: 1337
+databaseURI: mongodb://localhost:27017
+mountPath: /parse
+maxUploadSize: 20mb
+serverURL: http://localhost:1337/parse
+
+parse-server running on http://localhost:1337/parse
+appId: 4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR
+masterKey: ***REDACTED***
+port: 1337
+databaseURI: mongodb://localhost:27017
+mountPath: /parse
+maxUploadSize: 20mb
+serverURL: http://localhost:1337/parse
+
+parse-server running on http://localhost:1337/parse
+appId: 4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR
+masterKey: ***REDACTED***
+port: 1337
+databaseURI: mongodb://localhost:27017
+mountPath: /parse
+maxUploadSize: 20mb
+serverURL: http://localhost:1337/parse
+
+parse-server running on http://localhost:1337/parse
+appId: 4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR
+masterKey: ***REDACTED***
+port: 1337
+databaseURI: mongodb://localhost:27017
+mountPath: /parse
+maxUploadSize: 20mb
+serverURL: http://localhost:1337/parse
+
+parse-server running on http://localhost:1337/parse
+Unable to listen on port 1337. The port is already in use.

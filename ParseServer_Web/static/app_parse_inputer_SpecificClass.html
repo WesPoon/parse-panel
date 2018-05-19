@@ -1,0 +1,105 @@
+<!doctype html>
+<title>OFFERS - Parse - Inputer (Class: {{classname}})</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+{% if fieldList.count > 0 %}
+	<div class="top-content">
+		<div class="inner-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9 col-sm-offset-1 text">
+						<br>
+						<h1 align="middle">Parse - Database - Inputer</h1>
+						<br>
+                    </div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+						<p class="col-sm-1 control-label lead"></p><p class="col-sm-11 control-label lead" ><u>Class: {{classname}}</u></p><br>
+						<p class="col-sm-2 control-label lead"></p>
+						<form role="form" action="{{url_for('DataInputer_SpecificClass', classname=classname)}}" method="post" enctype=multipart/form-data >
+							<div class="col-sm-8 form-box" >
+								{% for each_num in range(listLength) %}
+									<div class="form-group">
+										<label for="form_{{fieldList[each_num]}}">{{fieldList[each_num]}}(Type:{{typeList[each_num]}})</label>
+										{% if typeList[each_num] == "String" %}
+											<textarea name="form_{{fieldList[each_num]}}" placeholder="{{fieldList[each_num]}}" class="form-control" id="form_{{fieldList[each_num]}}" required="" type="text"></textarea>
+										{% elif typeList[each_num] == "Number" %}
+											<input name="form_{{fieldList[each_num]}}" placeholder="{{fieldList[each_num]}}" class="form-control" id="form_{{fieldList[each_num]}}" required="" type="number" step="any">
+										{% elif typeList[each_num] == "Boolean" %}
+											<div class="radio" >											
+												<label>
+													<input type="radio" name="form_{{fieldList[each_num]}}" id="form_{{fieldList[each_num]}}_true" value="true" required="">
+													True
+												</label>
+												<label>
+													<input type="radio" name="form_{{fieldList[each_num]}}" id="form_{{fieldList[each_num]}}_true" value="false">
+													False
+												</label>												
+											</div>
+
+										{% elif typeList[each_num] == "File" %}
+										       
+                                                                                       <input type="file" name="form_{{fieldList[each_num]}}"  id="form_{{fieldList[each_num]}}" />
+										       
+                                                                                                                                                                                                      
+	
+										{% elif typeList[each_num] == "Date" %}
+											<br>
+											
+											<div class="form-group">
+												<label for="form_year_{{fieldList[each_num]}}">Year:</label>
+												<select class="form-control" name="form_year_{{fieldList[each_num]}}" id="form_year_{{fieldList[each_num]}}">
+													{% for TempYear in range(date_Dict["NowYear"], (date_Dict["NowYear"]+date_Dict["CountingYears"])) %}							
+														<option value ="{{TempYear}}">{{TempYear}}</option>
+													{% endfor %}
+												</select>
+												<label for="form_month_{{fieldList[each_num]}}">Month:</label>
+												<select class="form-control" name="form_month_{{fieldList[each_num]}}" id="form_month_{{fieldList[each_num]}}">												
+													{% for TempNum,TempMonth in date_Dict["AllMonths"] %}													
+														<option value ="{{(TempNum+1)}}">{{TempMonth}}</option>
+													{% endfor %}											
+												</select>
+												<label for="form_day_{{fieldList[each_num]}}">Day:</label>	
+													<input name="form_day_{{fieldList[each_num]}}" placeholder="01 or 25 or etc" class="form-control" id="form_day_{{fieldList[each_num]}}" required="" type="number" step="any">
+												<label for="form_hour_{{fieldList[each_num]}}">Hour:</label>	
+												<select class="form-control" name="form_hour_{{fieldList[each_num]}}" id="form_hour_{{fieldList[each_num]}}">												
+													{% for TempHour in date_Dict["AllHours"] %}													
+														<option value ="{{TempHour}}">{{TempHour}}</option>
+													{% endfor %}											
+												</select>
+											</div>	
+											
+											{% elif typeList[each_num] == "Pointer" %}
+											<br>
+											
+											<div class="form-group">
+												<label for="form_{{fieldList[each_num]}}">Company:</label>
+												<select class="form-control" name="form_{{fieldList[each_num]}}" id="form_{{fieldList[each_num]}}">
+													{% for ObjKey in pointerClass_Dict %}							
+														<option value ="{{ObjKey["objectId"]}}">{{ObjKey["Name"]}}</option>
+													{% endfor %}
+												</select>
+												
+											</div>	
+											
+										{% endif %}
+									</div>
+								{% endfor %}
+							</div>
+							<div class="col-sm-3 col-sm-offset-5 form-box" >
+								<button type="submit" class="btn">Submit</button>
+							</div>
+						</form>
+						
+					</div
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 social-login">
+						<h3><a href="./">You can Back To Main Page Here.</a></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+{% endif %}

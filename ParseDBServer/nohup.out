@@ -1,0 +1,91 @@
+Configuation loaded from /home/ubuntu/OFFERS/ParseDBServer/config.json
+appId: 4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR
+masterKey: ***REDACTED***
+port: 1337
+databaseURI: mongodb://localhost:27017
+push: [object Object]
+mountPath: /parse
+maxUploadSize: 20mb
+serverURL: http://localhost:1337/parse
+
+parse-server running on http://localhost:1337/parse
+[31merror[39m: Uncaught internal server error. { [MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }]
+  name: 'MongoError',
+  message: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  errmsg: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  code: 11000,
+  ok: 0 } MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }
+    at Function.MongoError.create (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at commandCallback (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1187:66)
+    at Callbacks.emit (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:540:20)
+[31merror[39m: Uncaught internal server error. { [MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }]
+  name: 'MongoError',
+  message: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  errmsg: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  code: 11000,
+  ok: 0 } MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }
+    at Function.MongoError.create (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at commandCallback (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1187:66)
+    at Callbacks.emit (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:540:20)
+[31merror[39m: Uncaught internal server error. { [MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }]
+  name: 'MongoError',
+  message: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  errmsg: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  code: 11000,
+  ok: 0 } MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }
+    at Function.MongoError.create (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at commandCallback (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1187:66)
+    at Callbacks.emit (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:540:20)
+[31merror[39m: Uncaught internal server error. { [MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }]
+  name: 'MongoError',
+  message: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  errmsg: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  code: 11000,
+  ok: 0 } MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }
+    at Function.MongoError.create (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at commandCallback (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1187:66)
+    at Callbacks.emit (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:540:20)
+[31merror[39m: Uncaught internal server error. { [MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }]
+  name: 'MongoError',
+  message: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  errmsg: 'exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }',
+  code: 11000,
+  ok: 0 } MongoError: exception: E11000 duplicate key error index: admin._User.$username_1 dup key: { : "" }
+    at Function.MongoError.create (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at commandCallback (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1187:66)
+    at Callbacks.emit (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/usr/lib/node_modules/parse-server/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:540:20)

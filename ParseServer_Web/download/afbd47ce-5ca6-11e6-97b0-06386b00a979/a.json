@@ -1,0 +1,30 @@
+{
+    "results": [
+        {
+            "yo": "d",
+            "createdAt": "2016-07-06T10:33:23.800Z",
+            "objectId": "AnYy1ab5wZ",
+            "updatedAt": "2016-07-06T10:33:38.523Z"
+        },
+        {
+            "createdAt": "2016-07-06T10:41:17.362Z",
+            "yo": "b",
+            "objectId": "i5UBzy4GEK",
+            "updatedAt": "2016-07-06T10:41:17.362Z"
+        },
+        {
+            "objectId": "NinEQk18uK",
+            "playerName": "Sean Plott",
+            "cheatMode": false,
+            "score": 133007,
+            "updatedAt": "2016-07-11T14:42:35.953Z",
+            "createdAt": "2016-07-11T14:42:35.953Z"
+        },
+        {
+            "createdAt": "2016-07-14T07:09:13.324Z",
+            "yo": "2",
+            "objectId": "wtXHedIv8K",
+            "updatedAt": "2016-07-14T07:09:26.937Z"
+        }
+    ]
+}

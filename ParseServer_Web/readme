@@ -1,0 +1,1 @@
+nohup python app_parse.py >> app_parse.log&

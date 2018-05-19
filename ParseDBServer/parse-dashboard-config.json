@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "serverURL": "http://54.65.1.149/parse/",
+      "appId": "4R03PRP8btiY00gdKqkl7lIlJyj6HYN7QFeodrfR",
+      "masterKey": "6NtABNvHhiAz9xRUQCXMeElqhqgJQp1wItcQB9AC",
+      "appName": "OFFERS.MongoDB"
+    }
+  ],
+  "users": [
+    {
+      "user":"user1",
+      "pass":"pass"
+    }
+  ]
+}
